@@ -1,0 +1,8 @@
+
+Public class main {
+       public static void main(String[] args) {
+          Motorcycle = new Motor("black");
+          System.Out.printIn(cycle.start());
+
+       }
+   }
