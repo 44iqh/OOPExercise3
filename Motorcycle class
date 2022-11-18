@@ -1,0 +1,19 @@
+public class Motorcycle {
+       private String colour;
+       private Engine engine;
+       private Handlebars handlebars;
+       private Brake brake;
+
+       public Motorcycle(String colour){
+             this.colour = colour;
+             engine = new Engine(); 
+             handlebars = new Handlebers();
+             brake = New Brake();
+     }
+       public void setColour(String colour) {
+            this.colour = colour;
+     }
+       public String start() {  
+           return engine.startEngine();
+     }
+  } 
