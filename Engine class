@@ -1,0 +1,10 @@
+class Engine  {
+    public String startEngine() {
+        return "The motorcycle engine has Started. ";
+
+    }
+    public String stopEngine(){
+        return "The motorcycle engine has Started.";
+     
+    }
+  }
